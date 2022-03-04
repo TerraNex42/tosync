@@ -41,7 +41,7 @@ Accounts.beforeExternalLogin((type, data, user) => {
   }
 })
 
-ServiceConfiguration.configurations.upsert({
+/* ServiceConfiguration.configurations.upsert({
   service: "google"
 }, {
   $set: {
@@ -49,7 +49,7 @@ ServiceConfiguration.configurations.upsert({
     loginStyle: "popup",
     secret: Meteor.settings.google.secret
   }
-});
+}); */
 
 // Paramètres e-mail compte avec mot de passe
 Accounts.urls.enrollAccount = (token) => {

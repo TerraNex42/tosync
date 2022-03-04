@@ -6,7 +6,7 @@ import { DateTime } from 'luxon'
 import Export from './lib/Export.js'
 import GapiBatch from './lib/GapiBatch.js'
 
-const CLIENT_ID = Meteor.settings.public.gapi.clientId
+//const CLIENT_ID = Meteor.settings.public.gapi.clientId
 const SCOPES = [
   'https://www.googleapis.com/auth/calendar.readonly',
   'https://www.googleapis.com/auth/calendar.events'
